@@ -1,0 +1,11 @@
+.header {
+  padding: 3rem;
+  border-bottom: 1px solid #555;
+}
+.header__name {
+  font-size: 3rem;
+  line-height: 2.5;
+}
+.header__status {
+  color: rgba(255, 255, 255, 0.7);
+}/*# sourceMappingURL=header.css.map */

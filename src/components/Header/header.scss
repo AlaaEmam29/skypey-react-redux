@@ -1,0 +1,12 @@
+.header{
+    padding:3rem;
+
+    border-bottom: 1px solid #555;
+    &__name{
+        font-size: 3rem;
+        line-height: 2.5;
+    }
+    &__status{
+        color:rgba(255,255,255,0.7);
+    }
+}

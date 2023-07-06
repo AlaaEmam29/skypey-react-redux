@@ -1,0 +1,19 @@
+form {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.chatWindow {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.chatWindow__input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.8rem;
+}/*# sourceMappingURL=chatWindow.css.map */

@@ -1,0 +1,50 @@
+.main {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.main__username {
+  letter-spacing: 0.2rem;
+}
+.main__username--img {
+  width: 22rem;
+  height: 22rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+.main__status {
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  width: 75%;
+  margin: auto;
+  line-height: 1.9;
+  text-align: center;
+}
+.main__status::after {
+  content: "";
+  height: 1px;
+  width: 110%;
+  position: absolute;
+  top: 8rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  left: -5%;
+}
+.main__btn {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 72.5em) {
+  .main__status::after {
+    top: 9.5rem;
+  }
+}
+@media screen and (max-width: 50em) {
+  .main__status::after {
+    top: 14rem;
+  }
+}/*# sourceMappingURL=main.css.map */

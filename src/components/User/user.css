@@ -1,0 +1,36 @@
+.user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1.5rem;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.user:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.user__pic {
+  height: 5rem;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.user__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.user__details-name {
+  color: rgba(255, 255, 255, 0.8);
+}
+.user__details-status {
+  font-size: 1.8rem;
+}
+.user__deleted {
+  all: unset;
+  cursor: pointer;
+  color: red;
+}/*# sourceMappingURL=user.css.map */
